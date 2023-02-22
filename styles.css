@@ -1,0 +1,59 @@
+.body{
+    margin: 20px;
+}
+
+@keyframes toRed {
+    0% {background-color: #d8cefe; margin-top: 0px; margin-left: 0px;}
+    25% {background-color: #2b2839;margin-top: 0px; margin-left: 825px;}
+    50% {background-color: #d21f3a; margin-top: 410px; margin-left: 825px;}
+    75% {background-color: #ddebf8; margin-top: 410px; margin-left: 0px;}
+    100% {background-color: #d8cefe; margin-top: 0px; margin-left: 0px;}
+}
+.card{
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    border-bottom: 10px solid #d8cefe;
+    border-top: 10px solid #d8cefe;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 6px;
+    background-color: #ddebf8;
+    animation-name: toRed;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    margin-top: 200px;
+    animation-timing-function: linear;
+}
+
+.pfp{
+    width: 150px;
+    border: 5px solid #2b2839;
+    border-radius: 3px;
+}
+
+.text{
+    text-align: center;
+    color: #2b2839;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0px 0px 3px  #d8cefe;
+}
+
+.highlight{
+    border: 1px dotted blue;
+}
+
+.pfp:hover{
+    border: 5px solid #d21f3a;
+    text-shadow: 2px 3px 3px  #d8cefe;
+    border-radius: 3px;
+}
+
+.text:hover{
+    text-align: center;
+    color: #d21f3a;
+}
