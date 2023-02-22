@@ -1,4 +1,4 @@
-# business-card
+# Business Card
 
 I created this weird info/business card
 
